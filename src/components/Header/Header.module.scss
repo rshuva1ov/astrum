@@ -1,0 +1,101 @@
+@import '../../scss/variables';
+@import '../../scss/libs/normalize';
+.header {
+  height: 892px;
+  background: no-repeat left/contain url('../../assets/Header/Layer\ 157\ 1.png'),
+    no-repeat right/contain url('../../assets/Header/Layer\ 157\ 2.png'),
+    no-repeat url('../../assets/Header/Hue_Saturation\ 5\ 1.jpg');
+  background-blend-mode: multiply;
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  &_left,
+  &_right {
+    height: 100%;
+    display: inline-block;
+    position: relative;
+  }
+  &_left {
+    top: 8px;
+    width: 577px;
+    background: no-repeat center/contain url('../../assets/Header/MafiaCostume_2022\ 2.png');
+  }
+  &_right {
+    top: 8px;
+    left: 641px;
+    width: 678px;
+    background: no-repeat center/contain url('../../assets/Header/MafiaCostume_2022\ 3.png');
+  }
+}
+.background {
+  &1 {
+    position: absolute;
+    left: 0;
+    transform: translateY(72px);
+    top: 50%;
+    height: 380px;
+    width: 100%;
+    background: no-repeat center/contain url('../../assets/Header/Layer\ 157\ 3.png');
+    mix-blend-mode: multiply;
+  }
+  &2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 172px;
+    width: 100%;
+
+    background: no-repeat center/contain url('../../assets/Header/BLUE\ GLOW\ 3.png');
+  }
+  &3 {
+    position: absolute;
+    left: 70px;
+    bottom: -20px;
+    height: 934px;
+    mix-blend-mode: screen;
+    width: 100%;
+    background: no-repeat center/contain url('../../assets/Header/glow\ 1.png');
+  }
+}
+.main {
+  &_logo {
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-41.5%);
+    width: 376px;
+    height: 318px;
+  }
+  &_figure_img {
+    position: absolute;
+    width: 766px;
+    height: 525px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-49.1%, -40.5%);
+  }
+  &_figcaption {
+    width: 100%;
+    position: absolute;
+    left: 32px;
+    bottom: 80px;
+    &_title {
+      color: #fff;
+      text-align: center;
+      font-size: 42px;
+      font-weight: 700;
+    }
+    &_subtitle {
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      font-family: Roboto;
+      font-weight: 400;
+      transform: translateY(16px);
+    }
+  }
+}
