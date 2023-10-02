@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/astrum/static/css/main.bdb9f0fe.css",
+    "main.js": "/astrum/static/js/main.d4fb9299.js",
+    "static/media/glow 1.png": "/astrum/static/media/glow 1.c0fe067544d9fd3c7c2b.png",
+    "static/media/Hue_Saturation 5 1.jpg": "/astrum/static/media/Hue_Saturation 5 1.be71d8436354c09f46c7.jpg",
+    "static/media/boxes.png": "/astrum/static/media/boxes.3cf21ba79c33c56f8ec1.png",
+    "static/media/background wall.png": "/astrum/static/media/background wall.f00c60d6f1be09bf0c0f.png",
+    "static/media/MafiaCostume_2022 3.png": "/astrum/static/media/MafiaCostume_2022 3.ade7780e49f9fcf2459a.png",
+    "static/media/MafiaCostume_2022 2.png": "/astrum/static/media/MafiaCostume_2022 2.d47e34d9d6bfc7484e73.png",
+    "static/media/Vito 1.png": "/astrum/static/media/Vito 1.ac25d497ba9109f40e99.png",
+    "static/media/box.png": "/astrum/static/media/box.ce58c18648142d6cd217.png",
+    "static/media/logo.png": "/astrum/static/media/logo.5a3f607092ca7f9b548d.png",
+    "static/media/BLUE GLOW 1.png": "/astrum/static/media/BLUE GLOW 1.4801ac19f1783468e5e4.png",
+    "static/media/BLUE GLOW 3.png": "/astrum/static/media/BLUE GLOW 3.91e71916a52062a5a2cf.png",
+    "index.html": "/astrum/index.html",
+    "main.bdb9f0fe.css.map": "/astrum/static/css/main.bdb9f0fe.css.map",
+    "main.d4fb9299.js.map": "/astrum/static/js/main.d4fb9299.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb9f0fe.css",
+    "static/js/main.d4fb9299.js"
+  ]
+}
